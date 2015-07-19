@@ -36,6 +36,7 @@
 		658553871B5B5F2D00D17AA0 /* Where Am ITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where Am ITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6585538B1B5B5F2D00D17AA0 /* Where_Am_ITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_Am_ITests.swift; sourceTree = "<group>"; };
 		6585538D1B5B5F2D00D17AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658553961B5BB15B00D17AA0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		6585536A1B5B5F2D00D17AA0 = {
 			isa = PBXGroup;
 			children = (
+				658553961B5BB15B00D17AA0 /* CoreLocation.framework */,
 				658553751B5B5F2D00D17AA0 /* Where Am I */,
 				6585538A1B5B5F2D00D17AA0 /* Where Am ITests */,
 				658553741B5B5F2D00D17AA0 /* Products */,
