@@ -18,6 +18,7 @@
             <string>Avenir-Roman</string>
             <string>Avenir-Roman</string>
             <string>Avenir-Roman</string>
+            <string>Avenir-Roman</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -136,16 +137,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uab-jh-JWP">
-                                <rect key="frame" x="113" y="213" width="467" height="48"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="i78-kC-iaa"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UA-n3-0Q2">
                                 <rect key="frame" x="113" y="159" width="467" height="24"/>
                                 <animations/>
@@ -167,34 +158,58 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dEs-MY-e3d">
-                                <rect key="frame" x="0.0" y="269" width="600" height="331"/>
+                                <rect key="frame" x="0.0" y="264" width="600" height="336"/>
                                 <animations/>
                             </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4w-nB-BDX">
+                                <rect key="frame" x="113" y="213" width="467" height="24"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Anh-dy-xw0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3y3-UD-Ffv">
+                                <rect key="frame" x="113" y="237" width="467" height="24"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Uaf-Uc-Tzu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.3921568627" green="0.80392156859999997" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Uab-jh-JWP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="0au-Qf-5PW"/>
-                            <constraint firstItem="Uab-jh-JWP" firstAttribute="leading" secondItem="TVp-6t-sGL" secondAttribute="trailing" constant="8" id="1hD-3x-iJj"/>
                             <constraint firstItem="gHQ-fn-hIh" firstAttribute="top" secondItem="7hU-cI-cxc" secondAttribute="bottom" constant="3" id="2Ql-M8-IjH"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dEs-MY-e3d" secondAttribute="bottom" id="4dT-zT-mvU"/>
+                            <constraint firstItem="dEs-MY-e3d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="3ZC-Sg-MuC"/>
                             <constraint firstItem="cuN-e8-hOn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="56o-6Y-vHb"/>
                             <constraint firstItem="2i8-6B-v0T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="7MQ-dG-iif"/>
                             <constraint firstItem="0UA-n3-0Q2" firstAttribute="top" secondItem="OSe-tA-tXZ" secondAttribute="bottom" constant="3" id="8c3-U3-4G5"/>
-                            <constraint firstItem="Uab-jh-JWP" firstAttribute="top" secondItem="M6g-TH-qWr" secondAttribute="bottom" constant="3" id="AH1-sv-hTp"/>
+                            <constraint firstItem="b4w-nB-BDX" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="BsN-PW-4Wm"/>
                             <constraint firstItem="M6g-TH-qWr" firstAttribute="top" secondItem="0UA-n3-0Q2" secondAttribute="bottom" constant="3" id="CP2-lU-kKo"/>
                             <constraint firstItem="OSe-tA-tXZ" firstAttribute="leading" secondItem="cuN-e8-hOn" secondAttribute="trailing" constant="8" id="DyP-xf-o8F"/>
                             <constraint firstItem="ndc-RQ-LYC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="EVE-jy-xGa"/>
+                            <constraint firstItem="dEs-MY-e3d" firstAttribute="top" secondItem="3y3-UD-Ffv" secondAttribute="bottom" constant="3" id="Fjb-76-V0P"/>
                             <constraint firstItem="xF8-qv-aMx" firstAttribute="top" secondItem="cuN-e8-hOn" secondAttribute="bottom" constant="3" id="Gfb-S4-Zyx"/>
                             <constraint firstItem="xF8-qv-aMx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="HJH-ye-3f9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dEs-MY-e3d" secondAttribute="trailing" constant="-20" id="Nr0-m5-3wy"/>
+                            <constraint firstItem="dEs-MY-e3d" firstAttribute="top" secondItem="3y3-UD-Ffv" secondAttribute="bottom" constant="3" id="O36-ui-kXd"/>
                             <constraint firstItem="M6g-TH-qWr" firstAttribute="leading" secondItem="ndc-RQ-LYC" secondAttribute="trailing" constant="8" id="PV6-6Z-QPJ"/>
                             <constraint firstItem="gHQ-fn-hIh" firstAttribute="top" secondItem="7hU-cI-cxc" secondAttribute="bottom" constant="3" id="QVK-2k-Xoy"/>
                             <constraint firstItem="gHQ-fn-hIh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="QeZ-H9-icj"/>
                             <constraint firstItem="cuN-e8-hOn" firstAttribute="top" secondItem="UHP-Eg-JKn" secondAttribute="bottom" constant="3" id="Sxa-HG-p6a"/>
                             <constraint firstItem="UHP-Eg-JKn" firstAttribute="top" secondItem="2i8-6B-v0T" secondAttribute="bottom" constant="3" id="TUn-tS-ojb"/>
                             <constraint firstItem="TVp-6t-sGL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="XKc-xK-1nX"/>
+                            <constraint firstItem="3y3-UD-Ffv" firstAttribute="top" secondItem="b4w-nB-BDX" secondAttribute="bottom" id="YHk-wq-xPf"/>
+                            <constraint firstItem="b4w-nB-BDX" firstAttribute="top" secondItem="M6g-TH-qWr" secondAttribute="bottom" constant="3" id="YkQ-FL-QJ4"/>
                             <constraint firstItem="7hU-cI-cxc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="aAZ-oo-etq"/>
                             <constraint firstItem="0UA-n3-0Q2" firstAttribute="leading" secondItem="xF8-qv-aMx" secondAttribute="trailing" constant="8" id="bBJ-gV-mMe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dEs-MY-e3d" secondAttribute="bottom" id="bbq-zj-DuD"/>
                             <constraint firstItem="TVp-6t-sGL" firstAttribute="top" secondItem="ndc-RQ-LYC" secondAttribute="bottom" constant="3" id="da9-fd-wag"/>
                             <constraint firstItem="A1j-F9-2yU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="eCV-MG-bm7"/>
                             <constraint firstItem="0UA-n3-0Q2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gNC-dN-pIT"/>
@@ -203,32 +218,31 @@
                             <constraint firstItem="OSe-tA-tXZ" firstAttribute="top" secondItem="gHQ-fn-hIh" secondAttribute="bottom" constant="3" id="gfM-Hz-YYB"/>
                             <constraint firstItem="OSe-tA-tXZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hLJ-VM-4da"/>
                             <constraint firstItem="A1j-F9-2yU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hw5-yh-lb7"/>
-                            <constraint firstItem="dEs-MY-e3d" firstAttribute="top" secondItem="Uab-jh-JWP" secondAttribute="bottom" constant="8" id="iHG-sJ-8K5"/>
                             <constraint firstItem="ndc-RQ-LYC" firstAttribute="top" secondItem="xF8-qv-aMx" secondAttribute="bottom" constant="3" id="j5W-M5-vGD"/>
                             <constraint firstItem="UHP-Eg-JKn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="mKi-b7-NZU"/>
-                            <constraint firstItem="dEs-MY-e3d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="oXE-eT-7mW"/>
+                            <constraint firstItem="b4w-nB-BDX" firstAttribute="leading" secondItem="TVp-6t-sGL" secondAttribute="trailing" constant="8" id="neV-4i-Syz"/>
                             <constraint firstItem="2i8-6B-v0T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="58" id="pLW-9K-Dos"/>
-                            <constraint firstItem="Uab-jh-JWP" firstAttribute="top" secondItem="M6g-TH-qWr" secondAttribute="bottom" constant="3" id="rN2-T5-Ogu"/>
+                            <constraint firstItem="3y3-UD-Ffv" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rWh-4L-Hee"/>
+                            <constraint firstItem="3y3-UD-Ffv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="93" id="sVV-Qv-u7d"/>
                             <constraint firstItem="7hU-cI-cxc" firstAttribute="top" secondItem="A1j-F9-2yU" secondAttribute="bottom" constant="20" id="uHn-Ib-1EQ"/>
                             <constraint firstItem="gHQ-fn-hIh" firstAttribute="leading" secondItem="UHP-Eg-JKn" secondAttribute="trailing" constant="8" id="uTY-fO-dGi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dEs-MY-e3d" secondAttribute="trailing" constant="-20" id="wld-cL-Y41"/>
                             <constraint firstItem="M6g-TH-qWr" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="xWg-yE-meQ"/>
-                            <constraint firstItem="dEs-MY-e3d" firstAttribute="top" secondItem="Uab-jh-JWP" secondAttribute="bottom" constant="8" id="zJH-HQ-RCq"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="addressLabel" destination="Uab-jh-JWP" id="raI-cN-jgO"/>
                         <outlet property="altitudeLabel" destination="OSe-tA-tXZ" id="OnA-ry-ipx"/>
                         <outlet property="courseLabel" destination="0UA-n3-0Q2" id="wFd-1q-6tE"/>
+                        <outlet property="firstAddressLabel" destination="b4w-nB-BDX" id="j8p-H9-1r8"/>
                         <outlet property="latitudeLabel" destination="7hU-cI-cxc" id="VDw-je-hgq"/>
                         <outlet property="longitudeLabel" destination="gHQ-fn-hIh" id="gw7-7r-TmZ"/>
                         <outlet property="mapView" destination="dEs-MY-e3d" id="ZoD-DF-e1y"/>
+                        <outlet property="secondAddressLabel" destination="3y3-UD-Ffv" id="Pxz-dE-hH8"/>
                         <outlet property="speedLabel" destination="M6g-TH-qWr" id="5ZA-y0-UBR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="347" y="428"/>
+            <point key="canvasLocation" x="261" y="473"/>
         </scene>
     </scenes>
 </document>
